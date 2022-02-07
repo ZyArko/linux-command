@@ -10,7 +10,9 @@ sudo chmod 777 /var/run/docker.sock
 
 ## CHROME_EXECUTABLE
 
-`sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome`
+```sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome
+
+```
 
 ## BSPWM
 
@@ -27,7 +29,11 @@ nitrogen
 yay -S polybar pacman-contrib ttf-font-awesome siji-git pulseaudio alsa-utils
 mkdir .config/polybar
 nano ./config/polybar/config
+```
+
 [Polybar](https://github.com/siduck76/bspwm-dotfiles/tree/main/polybar "bspwm dotfiles")
+
+```
 nano ./config/polybar/launch.sh
 ```
 
