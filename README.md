@@ -1,6 +1,6 @@
 # ARCH LINUX
 
-#### DOCKER
+### DOCKER
 
 ```sudo groupadd docker
 sudo usermod -aG docker your-user-name
@@ -12,7 +12,7 @@ sudo chmod 777 /var/run/docker.sock
 
 `sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome`
 
-## BSPWM
+### BSPWM
 
 ```sudo pacman -S xorg-xinit bspwm sxhkd dmenu nitrogen picom xfce4-terminal arandr
 mkdir .config/bspwm
@@ -31,7 +31,7 @@ https://github.com/siduck76/bspwm-dotfiles/tree/main/polybar
 nano ./config/polybar/launch.sh
 ```
 
-## TAIWAN MIRRORS
+### TAIWAN MIRRORS
 
 Server = http://archlinux.ccns.ncku.edu.tw/archlinux/$repo/os/$arch <br />
 Server = http://free.nchc.org.tw/arch/$repo/os/$arch <br />
@@ -43,7 +43,7 @@ Server = http://ftp.tku.edu.tw/Linux/ArchLinux/$repo/os/$arch <br />
 Server = http://ftp.yzu.edu.tw/Linux/archlinux/$repo/os/$arch <br />
 Server = https://ftp.yzu.edu.tw/Linux/archlinux/$repo/os/$arch <br />
 
-## OFFICIAL REPO
+### OFFICIAL REPO
 
 `sudo pacman -S kate konsole netbeans neofetch htop dolphin latte-dock bleachbit gwenview kcalc kdeconnect kdenlive ksysguard okular partitionmanager gparted spectacle qbittorrent libreoffice-still firefox thunderbird ttf-fira-code youtube-dl dart caprine flameshot gamemode mpv zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k zsh-completions linux-lts gnome-keyring zip ark firewalld virtualbox elisa xf86-video-amdgpu noto-fonts-emoji vlc simplescreenrecorder kitty nemo warpinator ark pulseaudio-bluetooth zsh-history-substring-search youtube-dl cmatrix wireshark-qt foliate linux-zen audacious obs-studio`
 
@@ -51,39 +51,39 @@ Server = https://ftp.yzu.edu.tw/Linux/archlinux/$repo/os/$arch <br />
 
 `sudo pacman -S php xampp`
 
-## MULTILIB
+### MULTILIB
 
 `sudo pacman -S wine-gecko wine-mono winetricks steam-native-runtime steam wine`
 
-## LUTRIS
+### LUTRIS
 
 `sudo pacman -S xdelta3 lutris zenity python-magic`
 
 `sudo pacman -S lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader`
 
-## MISSING FIRMWARE
+### MISSING FIRMWARE
 
 `yay -S aic94xx-firmware wd719x-firmware`
 
-## AUR
+### AUR
 
 `yay -S pamac-aur google-chrome android-studio nodejs-nativefier visual-studio-code-bin zoom ttf-ms-fonts inxi discord_arch_electron etcher-bin android-sdk-platform-tools nohang-git flutter linux-wifi-hotspot scrcpy update-grub spotify spotify-adblock-git downgrade proton-ge-custom-bin shell-color-scripts xampp`
 
 `yay -S ms-office-online`
 
-## VIRTUALBOX
+### VIRTUALBOX
 
 `sudo pacman -S linux-headers`
 
 `yay -S virtualbox-ext-oracle`
 
-## GENYMOTION
+### GENYMOTION
 
 `yay -S genymotion`
 
 `sudo vboxreload`
 
-## XAMPP
+### XAMPP
 
 ```
 sudo xampp start
@@ -91,20 +91,20 @@ sudo xampp stop
 sudo xampp restart
 ```
 
-# MANJARO
+## MANJARO
 
-## MIC
+### MIC
 
 ```'/etc/pulse/daemon.conf’
 avoid-resampling = false
 default-sample-rate = 44100
 ```
 
-## PACKET TRACER
+### PACKET TRACER
 
 `curl -s https://raw.githubusercontent.com/marcelobaptista/packettracer/master/install_pt.sh | sudo bash`
 
-## GIT PUSH
+### GIT PUSH
 
 ### Create a new repository on the command line
 
@@ -126,25 +126,25 @@ git branch -M master
 git push -u origin master
 ```
 
-## SCRCPY
+### SCRCPY
 
 Installing app/scrcpy to /home/apple/aur/scrcpy/pkg/scrcpy/usr/bin <br />
 Stripping target 'app/scrcpy' using strip. <br />
 Installing server/scrcpy-server to /home/apple/aur/scrcpy/pkg/scrcpy/usr/share/scrcpy <br />
 Installing /home/apple/aur/scrcpy/src/scrcpy-1.16/app/scrcpy.1 to /home/apple/aur/scrcpy/pkg/scrcpy/usr/share/man/man1 <br />
 
-## GAMEMODE
+### GAMEMODE
 
 `systemctl --user enable gamemoded`
 
-## POWERLEVEL10K
+### POWERLEVEL10K
 
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
 ```
 
-## SQL SERVER
+### SQL SERVER
 
 clone the mssql-sqlserver, msodbcsql , mssql-tools <br />
 activate the license <br />
@@ -155,7 +155,7 @@ systemctl enable mssql-server # status <br />
 sqlcmd #list of commands <br />
 use mssql server in vs code <br />
 
-## PACMAN MIRRORS
+### PACMAN MIRRORS
 
 `sudo pacman -R package_name`
 
@@ -185,7 +185,7 @@ use mssql server in vs code <br />
 
 > RESET MIRRORS
 
-## YAY
+### YAY
 
 `yay package_name`
 
@@ -207,12 +207,12 @@ use mssql server in vs code <br />
 
 > update
 
-## OH MY ZSH GIT
+### OH MY ZSH GIT
 
 /usr/share/oh-my-zsh/tools/install.sh <br />
 You have to execute 'cp /usr/share/oh-my-zsh/zshrc ~/.zshrc' to use it add zsh-theme-powerlevel10k ZSH_THEME="powerlevel10k/powerlevel10k" add plugins=git zsh-autosuggestions zsh-syntax-highlighting <br />
 
-## TLP
+### TLP
 
 `systemctl status tlp`
 
@@ -223,13 +223,13 @@ Notice: tlp-sleep.service is not enabled -- invoke "systemctl enable tlp-sleep.s
 Notice: systemd-rfkill.service is not masked -- invoke "systemctl mask systemd-rfkill.service" to correct this! <br />
 Notice: systemd-rfkill.socket is not masked -- invoke "systemctl mask systemd-rfkill.socket" to correct this! <br />
 
-## GIT
+### GIT
 
 sudo nano /etc/makepkg.conf # to enabling parallel compiling on your system to improve the compiling speed <br />
 CTRL + W, you can search for a term MAKEFLAGS then hit enter. <br />
 The variable $(nproc) will define a number of available threads in your processor automatically. <br />
 
-## INSTALL GIT REPOSITORY
+### INSTALL GIT REPOSITORY
 
 ```git clone htps://aur.archlinux.org/spotify.git
 ls
@@ -241,27 +241,27 @@ check PKGBUILD
 
 > to compile and install the program
 
-## UPDATE GRUB
+### UPDATE GRUB
 
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
-## INTRO IN ARCH
+### INTRO IN ARCH
 
 dont add plasma-application <br />
 add konsole, kate, cronie and timeshift, to setup first <br />
 
-## WINE
+### WINE
 
 Run 'systemctl restart systemd-binfmt' in order to make the wine binfmt available on your system. <br />
 
-## VIRTUALBOX
+### VIRTUALBOX
 
 ===> You must load vboxdrv module before starting VirtualBox: <br />
 ===> # modprobe vboxdrv <br />
 sudo vboxreload # reboot virtualbox module to the kernel <br />
 https://wiki.manjaro.org/index.php?title=Virtualbox //virtualbox installation <br />
 
-## OPENSDK
+### OPENSDK
 
 Configuring java-runtime-common... <br />
 For the complete set of Java binaries to be available in your PATH, <br />
@@ -271,13 +271,13 @@ Configuring jre-openjdk... <br />
 when you use a non-reparenting window manager, <br />
 set \_JAVA_AWT_WM_NONREPARENTING=1 in /etc/profile.d/jre.sh <br />
 
-## WARPINATOR
+### WARPINATOR
 
 systemctl start sshd
 
 > and then verify 22 is listening with that same netstat command.
 
-## WINETRICKS
+### WINETRICKS
 
 `cd wine`
 
@@ -293,37 +293,37 @@ systemctl start sshd
 
 > to install ms office 2013
 
-## ARDUINO
+### ARDUINO
 
 Add yourself to the uucp group to access the serial ports: <br />
 sudo usermod -a -G uucp <user> <br />
 Please checkout the wiki for further information. <br />
 
-## WPS OFFICE
+### WPS OFFICE
 
 ATTENTION: When you shut down wps, the wpsoffice process may still exist. <br />
 You can do 'sudo chmod -x /usr/lib/office6/wpsoffice' to fix it. But <br />
 this might bring you problem with signing in. <br />
 
-## FREE OFFICE
+### FREE OFFICE
 
 035316509684 //Free Office Product Key
 
-## WEBDEV SERVE FOR DART
+### WEBDEV SERVE FOR DART
 
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
-## WINE
+### WINE
 
 Run 'systemctl restart systemd-binfmt' in order to make the wine binfmt available on your system. <br />
 
-## FIREWALLD
+### FIREWALLD
 
 systemctl start firewalld # start the service for the mean time <br />
 systemctl enable firewalld # enable the service to auto-start at boot time <br />
 systemctl status firewalld # view service status <br />
 
-## XAMPP
+### XAMPP
 
 XAMPP is now installed below the /opt/lampp directory <br />
 To start, stop or restart XAMPP simply call the command: <br />
@@ -331,21 +331,21 @@ lampp {start, stop, restart} or xampp {start, stop, restart} <br />
 Then you can check that everything really works, <br />
 Just enter the following URL at your web browser: http://localhost <br />
 
-## COMMANDS
+### COMMANDS
 
 inxi -Fxzc0 //specs <br />
 sudo pacman -Syu // to update arch base <br />
 acpi_backlight=vendor // backlight error in boot <br />
 sudo update-grub // to update grub <br />
 
-## TOR BROWSER
+### TOR BROWSER
 
 edit /etc/apparmor.d/local/torbrowser.Browser.firefox and add the following line: <br />
 owner /{dev,run}/shm/org.mozilla._._ rw, <br />
 Also add exactly the same line to /etc/apparmor.d/local/torbrowser.Browser.plugin-container. <br />
 Then: sudo systemctl restart apparmor <br />
 
-## INSTALLING FLUTTER
+### INSTALLING FLUTTER
 
 groupadd flutterusers <br />
 gpasswd -a apple flutterusers <br />
@@ -354,29 +354,29 @@ chmod -R g+w /opt/flutter <br />
 newgrp flutterusers <br />
 export PATH="$PATH":"opt/flutter/bin" <br />
 
-## ANDROID STUDIO
+### ANDROID STUDIO
 
 sudo chmod -R 777 /opt/android-sdk
 
-# DEBIAN
+## DEBIAN
 
-## SNAP
+### SNAP
 
 sudo apt update <br />
 sudo apt install -y snap <br />
 sudo snap install hello-world(name) <br />
 
-## GUI Laptop Mode Tools:
+### GUI Laptop Mode Tools:
 
 sudo lmt-config-gui
 
-## XAMPP
+### XAMPP
 
 XAMPP: // lampp need to access as root folder then exec manager-linux-x64.run <br />
 sudo chmod 777 -R /opt/lampp/htdocs <br />
 sudo chmod 755 /opt/lampp/phpmyadmin/config.inc.php <br />
 
-## COMMANDS IN DEB
+### COMMANDS IN DEB
 
 sudo apt update // check the updates <br />
 sudo apt upgrade // to update deb <br />
@@ -384,7 +384,7 @@ sudo apt-get autoclean // You can clean partial packages using a command <br />
 sudo apt-get clean // You can auto cleanup apt-cache <br />
 sudo apt-get autoremove // You can clean up of any unused dependencies <br />
 
-## VIDEO CARD (GPU) MEMORY RAM SIZE
+### VIDEO CARD (GPU) MEMORY RAM SIZE
 
 lspci // use string called devices in the specified domain <br />
 lspci | grep VGA // or open specific VGA <br />
@@ -392,15 +392,8 @@ lspci -v -s 03:00.0 // Raven Rige <br />
 neofetch <br />
 htop <br />
 
-## PERMISSION
+### PERMISSION
 
 sudo chmod -R 777 /home/sixven/camp_sms/inputs //for change the permission of the folder <br />
 sudo cp -r (your current folder directory) (file directory of where you want to copy the file) // For example : If you are copying file from downloads to boot folder then type //For copying the files of with permission <br />
 sudo cp -r /home/lw/Downloads/sampleImage.png boot/themes <br />
-
-````
-
-```
-
-```
-````
