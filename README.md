@@ -139,8 +139,10 @@ Installing /home/apple/aur/scrcpy/src/scrcpy-1.16/app/scrcpy.1 to /home/apple/au
 
 ## POWERLEVEL10K
 
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k <br />
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc <br />
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+```
 
 ## SQL SERVER
 
@@ -155,26 +157,55 @@ use mssql server in vs code <br />
 
 ## PACMAN MIRRORS
 
-sudo pacman -R package_name # -R to remove the application
+`sudo pacman -R package_name`
 
-sudo reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist # ARCH
+> -R to remove the application
 
-sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu # MANJARO
+`sudo reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist`
 
-pacman-mirrors --get-branch # GET BRANCH
+> ARCH
 
-sudo pacman-mirrors --continent && sudo pacman -Syyu # COUNTRY REPO
+`sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu`
 
-sudo pacman-mirrors --geoip && sudo pacman -Syyu #CONTRY REPO
+> MANJARO
 
-sudo pacman-mirrors --country all --api --protocols all --set-branch stable && sudo pacman -Syyu # RESET MIRRORS
+`pacman-mirrors --get-branch`
+
+> GET BRANCH
+
+`sudo pacman-mirrors --continent && sudo pacman -Syyu`
+
+> COUNTRY REPO
+
+`sudo pacman-mirrors --geoip && sudo pacman -Syyu`
+
+> COUNTRY REPO
+
+`sudo pacman-mirrors --country all --api --protocols all --set-branch stable && sudo pacman -Syyu`
+
+> RESET MIRRORS
 
 ## YAY
 
-yay package_name # search the package name in aur <br />
-yay -Ss package_name # search the package name both aur and pamac <br />
-yay -S package_name # install package <br />
-yay -Sua # update <br />
+`yay package_name`
+
+> search the package name in aur
+
+`yay -Ss package_name`
+
+> search the package name both aur and pamac
+
+> `yay -S package_name`
+
+> install package
+
+`yay -Sua`
+
+> update
+
+`yay -S package name`
+
+> update
 
 ## OH MY ZSH GIT
 
@@ -185,7 +216,6 @@ You have to execute 'cp /usr/share/oh-my-zsh/zshrc ~/.zshrc' to use it add zsh-t
 
 systemctl status tlp // to open tlp <br />
 sudo tlp-stat <br />
-
 Notice: tlp.service is not enabled -- invoke "systemctl enable tlp.service" to correct this! <br />
 Notice: tlp-sleep.service is not enabled -- invoke "systemctl enable tlp-sleep.service" to correct this! <br />
 Notice: systemd-rfkill.service is not masked -- invoke "systemctl mask systemd-rfkill.service" to correct this! <br />
@@ -199,15 +229,20 @@ The variable $(nproc) will define a number of available threads in your processo
 
 ## INSTALL GIT REPOSITORY
 
-git clone htps://aur.archlinux.org/spotify.git <br />
-ls <br />
-cd spotify <br />
-check PKGBUILD <br />
-makepkg -si or -sia #to compile and install the program <br />
+```git clone htps://aur.archlinux.org/spotify.git
+ls
+cd spotify
+check PKGBUILD
+
+```
+
+`makepkg -si or -sia or -sirc`
+
+> to compile and install the program
 
 ## UPDATE GRUB
 
-grub-mkconfig -o /boot/grub/grub.cfg
+`grub-mkconfig -o /boot/grub/grub.cfg`
 
 ## INTRO IN ARCH
 
