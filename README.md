@@ -2,10 +2,11 @@
 
 ## DOCKER
 
-`sudo groupadd docker`
-`sudo usermod -aG docker your-user-name`
-`systemctl start docker`
-`sudo chmod 777 /var/run/docker.sock`
+```sudo groupadd docker
+sudo usermod -aG docker your-user-name
+systemctl start docker
+sudo chmod 777 /var/run/docker.sock
+```
 
 ## CHROME_EXECUTABLE
 
@@ -13,21 +14,22 @@
 
 ## BSPWM
 
-`sudo pacman -S xorg-xinit bspwm sxhkd dmenu nitrogen picom xfce4-terminal arandr`
-`mkdir .config/bspwm`
-`mkdir .config/sxhkd`
-`cp /usr/share/doc/bspwm/examples/bspwmrc .config/bspwm/`
-`cp /usr/share/doc/bspwm/examples/sxhkdrc .config/sxhkd/`
-`nano .config/sxhkd/sxhkdrc`
-`cp /etc/X11/xinit/xinitrc .xinitrc`
-`sudo nano .xinitrc`
-`sudo nano /etc/xdg/picom.conf`
-`nitrogen`
-`yay -S polybar pacman-contrib ttf-font-awesome siji-git pulseaudio alsa-utils`
-`mkdir .config/polybar`
-`nano ./config/polybar/config`
+```sudo pacman -S xorg-xinit bspwm sxhkd dmenu nitrogen picom xfce4-terminal arandr
+mkdir .config/bspwm
+mkdir .config/sxhkd
+cp /usr/share/doc/bspwm/examples/bspwmrc .config/bspwm/
+cp /usr/share/doc/bspwm/examples/sxhkdrc .config/sxhkd/
+nano .config/sxhkd/sxhkdrc
+cp /etc/X11/xinit/xinitrc .xinitrc
+sudo nano .xinitrc
+sudo nano /etc/xdg/picom.conf
+nitrogen
+yay -S polybar pacman-contrib ttf-font-awesome siji-git pulseaudio alsa-utils
+mkdir .config/polybar
+nano ./config/polybar/config
 [Polybar](https://github.com/siduck76/bspwm-dotfiles/tree/main/polybar "bspwm dotfiles")
-`nano ./config/polybar/launch.sh`
+nano ./config/polybar/launch.sh
+```
 
 ## TAIWAN MIRRORS
 
