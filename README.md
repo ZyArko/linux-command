@@ -63,42 +63,45 @@ Server = https://ftp.yzu.edu.tw/Linux/archlinux/$repo/os/$arch <br />
 
 ## MISSING FIRMWARE
 
-yay -S aic94xx-firmware wd719x-firmware
+`yay -S aic94xx-firmware wd719x-firmware`
 
 ## AUR
 
-yay -S pamac-aur google-chrome android-studio nodejs-nativefier visual-studio-code-bin zoom ttf-ms-fonts inxi discord_arch_electron etcher-bin android-sdk-platform-tools nohang-git flutter linux-wifi-hotspot scrcpy update-grub spotify spotify-adblock-git downgrade proton-ge-custom-bin shell-color-scripts xampp
+`yay -S pamac-aur google-chrome android-studio nodejs-nativefier visual-studio-code-bin zoom ttf-ms-fonts inxi discord_arch_electron etcher-bin android-sdk-platform-tools nohang-git flutter linux-wifi-hotspot scrcpy update-grub spotify spotify-adblock-git downgrade proton-ge-custom-bin shell-color-scripts xampp`
 
-yay -S ms-office-online
+`yay -S ms-office-online`
 
 ## VIRTUALBOX
 
-sudo pacman -S linux-headers
+`sudo pacman -S linux-headers`
 
-yay -S virtualbox-ext-oracle
+`yay -S virtualbox-ext-oracle`
 
 ## GENYMOTION
 
-yay -S genymotion <br />
-sudo vboxreload <br />
+`yay -S genymotion`
+
+`sudo vboxreload`
 
 ## XAMPP
 
-sudo xampp start <br />
-sudo xampp stop <br />
-sudo xampp restart <br />
+```sudo xampp start
+sudo xampp stop
+sudo xampp restart
+```
 
-## MANJARO
+# MANJARO
 
 ## MIC
 
-'/etc/pulse/daemon.conf’ <br />
-avoid-resampling = false <br />
-default-sample-rate = 44100 <br />
+```'/etc/pulse/daemon.conf’
+avoid-resampling = false
+default-sample-rate = 44100
+```
 
 ## PACKET TRACER
 
-curl -s https://raw.githubusercontent.com/marcelobaptista/packettracer/master/install_pt.sh | sudo bash <br />
+`curl -s https://raw.githubusercontent.com/marcelobaptista/packettracer/master/install_pt.sh | sudo bash`
 
 ## GIT PUSH
 
