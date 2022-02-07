@@ -1,6 +1,6 @@
 # ARCH LINUX
 
-### DOCKER
+#### DOCKER
 
 ```sudo groupadd docker
 sudo usermod -aG docker your-user-name
