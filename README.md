@@ -232,9 +232,14 @@ systemctl start sshd // and then verify 22 is listening with that same netstat c
 ## WINETRICKS
 
 cd wine <br />
-WINEARCH=win32 WINEPREFIX=~/wine/winebottle winetricks // my wine <br />
-WINEARCH=win32 WINEPREFIX=~/wine/winebottle wine ~/wine/winebottle/drive_c/testprogram.exe //to execute direct into drive c <br />
-wine ./setup.exe // to install ms office 2013 <br />
+`WINEARCH=win32 WINEPREFIX=~/wine/winebottle winetricks`
+
+> my wine WINEPREFIX=tidly/wine
+
+`WINEARCH=win32 WINEPREFIX=~/wine/winebottle wine ~/wine/winebottle/drive_c/testprogram.exe`
+
+> to execute direct into drive c
+> `wine ./setup.exe // to install ms office 2013 `
 
 ## ARDUINO
 
