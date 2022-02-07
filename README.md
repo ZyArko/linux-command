@@ -29,11 +29,7 @@ nitrogen
 yay -S polybar pacman-contrib ttf-font-awesome siji-git pulseaudio alsa-utils
 mkdir .config/polybar
 nano ./config/polybar/config
-```
-
-[Polybar](https://github.com/siduck76/bspwm-dotfiles/tree/main/polybar "bspwm dotfiles")
-
-```
+https://github.com/siduck76/bspwm-dotfiles/tree/main/polybar
 nano ./config/polybar/launch.sh
 ```
 
@@ -51,21 +47,33 @@ Server = https://ftp.yzu.edu.tw/Linux/archlinux/$repo/os/$arch <br />
 
 ## OFFICIAL REPO
 
-sudo pacman -S kate konsole netbeans neofetch htop dolphin latte-dock bleachbit gwenview kcalc kdeconnect kdenlive ksysguard okular partitionmanager gparted spectacle qbittorrent libreoffice-still firefox thunderbird ttf-fira-code youtube-dl dart caprine flameshot gamemode mpv zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k zsh-completions linux-lts gnome-keyring zip ark firewalld virtualbox elisa xf86-video-amdgpu noto-fonts-emoji vlc simplescreenrecorder kitty nemo warpinator ark pulseaudio-bluetooth zsh-history-substring-search youtube-dl cmatrix wireshark-qt foliate linux-zen audacious obs-studio
+```sudo pacman -S kate konsole netbeans neofetch htop dolphin latte-dock bleachbit gwenview kcalc kdeconnect kdenlive ksysguard okular partitionmanager gparted spectacle qbittorrent libreoffice-still firefox thunderbird ttf-fira-code youtube-dl dart caprine flameshot gamemode mpv zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k zsh-completions linux-lts gnome-keyring zip ark firewalld virtualbox elisa xf86-video-amdgpu noto-fonts-emoji vlc simplescreenrecorder kitty nemo warpinator ark pulseaudio-bluetooth zsh-history-substring-search youtube-dl cmatrix wireshark-qt foliate linux-zen audacious obs-studio
 
+```
+
+```
 sudo pacman -S gnome
+```
 
+```
 sudo pacman -S php xampp
+```
 
 ## MULTILIB
 
-sudo pacman -S wine-gecko wine-mono winetricks steam-native-runtime steam wine
+```sudo pacman -S wine-gecko wine-mono winetricks steam-native-runtime steam wine
+
+```
 
 ## LUTRIS
 
+```
 sudo pacman -S xdelta3 lutris zenity python-magic
+```
 
+```
 sudo pacman -S lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
+```
 
 ## MISSING FIRMWARE
 
