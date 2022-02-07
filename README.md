@@ -1,6 +1,6 @@
 # ARCH LINUX
 
-## DOCKER
+### DOCKER
 
 ```sudo groupadd docker
 sudo usermod -aG docker your-user-name
@@ -8,7 +8,7 @@ systemctl start docker
 sudo chmod 777 /var/run/docker.sock
 ```
 
-## CHROME_EXECUTABLE
+### CHROME_EXECUTABLE
 
 `sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome`
 
@@ -195,7 +195,7 @@ use mssql server in vs code <br />
 
 > search the package name both aur and pamac
 
-> `yay -S package_name`
+`yay -S package_name`
 
 > install package
 
@@ -214,8 +214,10 @@ You have to execute 'cp /usr/share/oh-my-zsh/zshrc ~/.zshrc' to use it add zsh-t
 
 ## TLP
 
-systemctl status tlp // to open tlp <br />
-sudo tlp-stat <br />
+`systemctl status tlp`
+
+`sudo tlp-stat`
+
 Notice: tlp.service is not enabled -- invoke "systemctl enable tlp.service" to correct this! <br />
 Notice: tlp-sleep.service is not enabled -- invoke "systemctl enable tlp-sleep.service" to correct this! <br />
 Notice: systemd-rfkill.service is not masked -- invoke "systemctl mask systemd-rfkill.service" to correct this! <br />
@@ -250,7 +252,7 @@ add konsole, kate, cronie and timeshift, to setup first <br />
 
 ## WINE
 
-Run 'systemctl restart systemd-binfmt' in order to make the wine binfmt available on your system.
+Run 'systemctl restart systemd-binfmt' in order to make the wine binfmt available on your system. <br />
 
 ## VIRTUALBOX
 
