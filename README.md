@@ -10,9 +10,7 @@ sudo chmod 777 /var/run/docker.sock
 
 ## CHROME_EXECUTABLE
 
-```sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome
-
-```
+`sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome`
 
 ## BSPWM
 
@@ -51,29 +49,19 @@ Server = https://ftp.yzu.edu.tw/Linux/archlinux/$repo/os/$arch <br />
 
 ```
 
-```
-sudo pacman -S gnome
-```
+`sudo pacman -S gnome`
 
-```
-sudo pacman -S php xampp
-```
+`sudo pacman -S php xampp`
 
 ## MULTILIB
 
-```sudo pacman -S wine-gecko wine-mono winetricks steam-native-runtime steam wine
-
-```
+`sudo pacman -S wine-gecko wine-mono winetricks steam-native-runtime steam wine`
 
 ## LUTRIS
 
-```
-sudo pacman -S xdelta3 lutris zenity python-magic
-```
+`sudo pacman -S xdelta3 lutris zenity python-magic`
 
-```
-sudo pacman -S lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
-```
+`sudo pacman -S lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader`
 
 ## MISSING FIRMWARE
 
