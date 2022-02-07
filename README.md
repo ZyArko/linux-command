@@ -45,9 +45,7 @@ Server = https://ftp.yzu.edu.tw/Linux/archlinux/$repo/os/$arch <br />
 
 ## OFFICIAL REPO
 
-```sudo pacman -S kate konsole netbeans neofetch htop dolphin latte-dock bleachbit gwenview kcalc kdeconnect kdenlive ksysguard okular partitionmanager gparted spectacle qbittorrent libreoffice-still firefox thunderbird ttf-fira-code youtube-dl dart caprine flameshot gamemode mpv zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k zsh-completions linux-lts gnome-keyring zip ark firewalld virtualbox elisa xf86-video-amdgpu noto-fonts-emoji vlc simplescreenrecorder kitty nemo warpinator ark pulseaudio-bluetooth zsh-history-substring-search youtube-dl cmatrix wireshark-qt foliate linux-zen audacious obs-studio
-
-```
+`sudo pacman -S kate konsole netbeans neofetch htop dolphin latte-dock bleachbit gwenview kcalc kdeconnect kdenlive ksysguard okular partitionmanager gparted spectacle qbittorrent libreoffice-still firefox thunderbird ttf-fira-code youtube-dl dart caprine flameshot gamemode mpv zsh-autosuggestions zsh-syntax-highlighting zsh-theme-powerlevel10k zsh-completions linux-lts gnome-keyring zip ark firewalld virtualbox elisa xf86-video-amdgpu noto-fonts-emoji vlc simplescreenrecorder kitty nemo warpinator ark pulseaudio-bluetooth zsh-history-substring-search youtube-dl cmatrix wireshark-qt foliate linux-zen audacious obs-studio`
 
 `sudo pacman -S gnome`
 
