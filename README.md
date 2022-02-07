@@ -309,12 +309,13 @@ sudo apt update <br />
 sudo apt install -y snap <br />
 sudo snap install hello-world(name) <br />
 
-# GUI Laptop Mode Tools:
+## GUI Laptop Mode Tools:
 
 sudo lmt-config-gui
 
-# XAMPP: // lampp need to access as root folder then exec manager-linux-x64.run
+## XAMPP
 
+XAMPP: // lampp need to access as root folder then exec manager-linux-x64.run <br />
 sudo chmod 777 -R /opt/lampp/htdocs <br />
 sudo chmod 755 /opt/lampp/phpmyadmin/config.inc.php <br />
 
