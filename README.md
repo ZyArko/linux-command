@@ -85,7 +85,8 @@ Server = https://ftp.yzu.edu.tw/Linux/archlinux/$repo/os/$arch <br />
 
 ## XAMPP
 
-```sudo xampp start
+```
+sudo xampp start
 sudo xampp stop
 sudo xampp restart
 ```
@@ -107,19 +108,23 @@ default-sample-rate = 44100
 
 ### Create a new repository on the command line
 
-echo "# myself-html" >> README.md <br />
-git init <br />
-git add README.md <br />
-git commit -m "first commit" <br />
-git branch -M master <br />
-git remote add origin https://github.com/ZyArko/practice.git <br />
-git push -u origin master <br />
+```
+echo "# myself-html" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/ZyArko/practice.git
+git push -u origin master
+```
 
 ### Push an existing repository from the command line
 
-git remote add origin https://github.com/ZyArko/practice.git <br />
-git branch -M master <br />
-git push -u origin master <br />
+```
+git remote add origin https://github.com/ZyArko/practice.git
+git branch -M master
+git push -u origin master
+```
 
 ## SCRCPY
 
@@ -130,7 +135,7 @@ Installing /home/apple/aur/scrcpy/src/scrcpy-1.16/app/scrcpy.1 to /home/apple/au
 
 ## GAMEMODE
 
-systemctl --user enable gamemoded
+`systemctl --user enable gamemoded`
 
 ## POWERLEVEL10K
 
