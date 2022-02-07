@@ -233,7 +233,6 @@ The variable $(nproc) will define a number of available threads in your processo
 ls
 cd spotify
 check PKGBUILD
-
 ```
 
 `makepkg -si or -sia or -sirc`
@@ -397,6 +396,9 @@ sudo chmod -R 777 /home/sixven/camp_sms/inputs //for change the permission of th
 sudo cp -r (your current folder directory) (file directory of where you want to copy the file) // For example : If you are copying file from downloads to boot folder then type //For copying the files of with permission <br />
 sudo cp -r /home/lw/Downloads/sampleImage.png boot/themes <br />
 
+````
+
 ```
 
 ```
+````
