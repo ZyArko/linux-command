@@ -2,32 +2,32 @@
 
 ## DOCKER
 
-sudo groupadd docker <br />
-sudo usermod -aG docker your-user-name <br />
-systemctl start docker <br />
-sudo chmod 777 /var/run/docker.sock <br />
+`sudo groupadd docker`
+`sudo usermod -aG docker your-user-name`
+`systemctl start docker`
+`sudo chmod 777 /var/run/docker.sock`
 
 ## CHROME_EXECUTABLE
 
-sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome
+`sudo ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome`
 
 ## BSPWM
 
-sudo pacman -S xorg-xinit bspwm sxhkd dmenu nitrogen picom xfce4-terminal arandr <br />
-mkdir .config/bspwm <br />
-mkdir .config/sxhkd <br />
-cp /usr/share/doc/bspwm/examples/bspwmrc .config/bspwm/ <br />
-cp /usr/share/doc/bspwm/examples/sxhkdrc .config/sxhkd/ <br />
-nano .config/sxhkd/sxhkdrc <br />
-cp /etc/X11/xinit/xinitrc .xinitrc <br />
-sudo nano .xinitrc <br />
-sudo nano /etc/xdg/picom.conf <br />
-nitrogen <br />
-yay -S polybar pacman-contrib ttf-font-awesome siji-git pulseaudio alsa-utils <br />
-mkdir .config/polybar <br />
-nano ./config/polybar/config <br />
-https://github.com/siduck76/bspwm-dotfiles/tree/main/polybar <br />
-nano ./config/polybar/launch.sh <br />
+`sudo pacman -S xorg-xinit bspwm sxhkd dmenu nitrogen picom xfce4-terminal arandr`
+`mkdir .config/bspwm`
+`mkdir .config/sxhkd`
+`cp /usr/share/doc/bspwm/examples/bspwmrc .config/bspwm/`
+`cp /usr/share/doc/bspwm/examples/sxhkdrc .config/sxhkd/`
+`nano .config/sxhkd/sxhkdrc`
+`cp /etc/X11/xinit/xinitrc .xinitrc`
+`sudo nano .xinitrc`
+`sudo nano /etc/xdg/picom.conf`
+`nitrogen`
+`yay -S polybar pacman-contrib ttf-font-awesome siji-git pulseaudio alsa-utils`
+`mkdir .config/polybar`
+`nano ./config/polybar/config`
+[Polybar](https://github.com/siduck76/bspwm-dotfiles/tree/main/polybar "bspwm dotfiles")
+`nano ./config/polybar/launch.sh`
 
 ## TAIWAN MIRRORS
 
@@ -227,19 +227,25 @@ set \_JAVA_AWT_WM_NONREPARENTING=1 in /etc/profile.d/jre.sh <br />
 
 ## WARPINATOR
 
-systemctl start sshd // and then verify 22 is listening with that same netstat command.
+systemctl start sshd
+
+> and then verify 22 is listening with that same netstat command.
 
 ## WINETRICKS
 
-cd wine <br />
-`WINEARCH=win32 WINEPREFIX=~/wine/winebottle winetricks`
+`cd wine`
 
-> my wine WINEPREFIX=tidly/wine
+> wine bottle
+
+`WINEARCH=win32 WINEPREFIX=~/wine/winebottle winetricks`
 
 `WINEARCH=win32 WINEPREFIX=~/wine/winebottle wine ~/wine/winebottle/drive_c/testprogram.exe`
 
 > to execute direct into drive c
-> `wine ./setup.exe // to install ms office 2013 `
+
+`wine ./setup.exe`
+
+> to install ms office 2013
 
 ## ARDUINO
 
@@ -345,3 +351,7 @@ htop <br />
 sudo chmod -R 777 /home/sixven/camp_sms/inputs //for change the permission of the folder <br />
 sudo cp -r (your current folder directory) (file directory of where you want to copy the file) // For example : If you are copying file from downloads to boot folder then type //For copying the files of with permission <br />
 sudo cp -r /home/lw/Downloads/sampleImage.png boot/themes <br />
+
+```
+
+```
